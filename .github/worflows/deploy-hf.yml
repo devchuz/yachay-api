@@ -17,4 +17,4 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://devchuz:$HF_TOKEN@huggingface.co/spaces/TU_USUARIO/yachay-app main --force
+          git push https://Devchuz:$HF_TOKEN@huggingface.co/spaces/Devchuz/yachay-api main --force
