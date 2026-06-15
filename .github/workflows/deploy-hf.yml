@@ -7,16 +7,19 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: PRD        # ← esto le dice a GitHub que use los secrets de PRD
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # historial completo, necesario para push
+          fetch-depth: 0
 
       - name: Push to Hugging Face Spaces
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          git config user.email "jhonrinconroman@gmail.com"
+          git config user.name "Devchuz"
           git remote add hf https://oauth2:$HF_TOKEN@huggingface.co/spaces/Devchuz/yachay-api || \
           git remote set-url hf https://oauth2:$HF_TOKEN@huggingface.co/spaces/Devchuz/yachay-api
           git push hf main --force
