@@ -17,4 +17,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git push https://Devchuz:$HF_TOKEN@huggingface.co/spaces/Devchuz/yachay-api main --force
+          git remote add hf https://oauth2:$HF_TOKEN@huggingface.co/spaces/Devchuz/yachay-api || \
+          git remote set-url hf https://oauth2:$HF_TOKEN@huggingface.co/spaces/Devchuz/yachay-api
+          git push hf main --force
