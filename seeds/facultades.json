@@ -1,0 +1,1279 @@
+[
+  {
+    "tipo": "oficina",
+    "facultad": "Mesa de Partes UNCP",
+    "area": null,
+    "carreras": [],
+    "oficina": "Mesa de Partes",
+    "ruta": "Mesa de Partes UNCP",
+    "accion_sugerida": "orientar_mesa_partes",
+    "prioridad": 5,
+    "keywords": [
+      "mesa de partes",
+      "oficio",
+      "carta",
+      "expediente",
+      "documento",
+      "presentar documento",
+      "trámite documentario",
+      "seguimiento documentario",
+      "constancia",
+      "solicitud formal",
+      "recepción de documentos",
+      "dirigir documento",
+      "archivo"
+    ],
+    "ejemplos": [
+      "Quiero presentar un oficio a la universidad",
+      "Necesito dejar una carta para una autoridad de la UNCP",
+      "Deseo saber por dónde ingreso mi expediente",
+      "Tengo un documento formal para mesa de partes"
+    ],
+    "descripcion": "Ruta administrativa para presentar documentos formales ante la universidad: cartas, oficios, expedientes, solicitudes administrativas, documentos dirigidos a autoridades, seguimiento documentario, recepción de archivos, constancias o comunicaciones oficiales. No corresponde cuando el usuario solo quiere orientación general o registrar una necesidad comunitaria por proyección social."
+  },
+  {
+    "tipo": "oficina",
+    "facultad": "Proyección Social Central UNCP",
+    "area": null,
+    "carreras": [],
+    "oficina": "Proyección Social Central",
+    "ruta": "Proyección Social UNCP",
+    "accion_sugerida": "registrar_solicitud",
+    "prioridad": 1,
+    "keywords": [
+      "proyección social",
+      "apoyo a comunidad",
+      "comunidad",
+      "solicitud",
+      "necesidad",
+      "capacitación",
+      "campaña",
+      "asesoría",
+      "ayuda",
+      "gobierno local",
+      "junta vecinal",
+      "comunidad campesina",
+      "organización social",
+      "derivación",
+      "seguimiento"
+    ],
+    "ejemplos": [
+      "Mi comunidad necesita apoyo de la universidad",
+      "Queremos registrar una solicitud de proyección social",
+      "Necesitamos una campaña para nuestra comunidad",
+      "Somos una municipalidad y buscamos apoyo técnico"
+    ],
+    "descripcion": "Puerta de entrada para necesidades de comunidades campesinas, comunidades urbanas, juntas vecinales, organizaciones sociales y gobiernos locales que solicitan apoyo de la universidad. Recibe la necesidad, orienta al ciudadano, registra la solicitud, genera código de seguimiento y puede derivar el caso a una o varias facultades según la temática. Aplica cuando el usuario describe un problema comunitario, pide apoyo, capacitación, campaña, asesoría o acompañamiento universitario."
+  },
+  {
+    "tipo": "ruta_institucional",
+    "facultad": "Proyección Social de Facultad",
+    "area": null,
+    "carreras": [],
+    "oficina": "Proyección Social de Facultad",
+    "ruta": "Proyección Social de Facultad",
+    "accion_sugerida": "derivar_facultad",
+    "prioridad": 20,
+    "keywords": [
+      "derivar",
+      "facultad",
+      "carrera",
+      "especialista",
+      "docentes",
+      "estudiantes",
+      "apoyo técnico",
+      "proyecto universitario",
+      "brigada",
+      "voluntariado"
+    ],
+    "ejemplos": [
+      "Este caso debe verlo una facultad",
+      "Necesitamos especialistas de la universidad",
+      "Quiero saber qué facultad puede ayudar"
+    ],
+    "descripcion": "Ruta especializada dentro de cada facultad para atender solicitudes ya derivadas por la Unidad o por Proyección Social Central. Corresponde cuando la necesidad tiene una temática clara vinculada a una carrera o facultad específica, por ejemplo salud, educación, ingeniería, agropecuaria, legal, administración o ambiente. La decisión final de derivación la valida la Unidad responsable."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Enfermería",
+    "area": "Área I: Ciencias de la Salud",
+    "carreras": [
+      "Enfermería"
+    ],
+    "oficina": [
+      "enfermería",
+      "salud",
+      "vacunación",
+      "anemia",
+      "nutrición",
+      "higiene",
+      "primeros auxilios",
+      "adulto mayor",
+      "madres",
+      "niños",
+      "campaña de salud",
+      "prevención",
+      "materno infantil"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos campaña de salud para niños",
+      "Queremos charlas sobre anemia y nutrición",
+      "Solicitamos apoyo de enfermería para adultos mayores",
+      "Necesitamos primeros auxilios en la comunidad"
+    ],
+    "keywords": "Proyección Social de la Facultad de Enfermería",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Atiende necesidades de salud comunitaria preventiva y cuidado de personas: campañas de salud, vacunación, control de crecimiento, salud materno-infantil, nutrición, anemia, higiene, primeros auxilios, prevención de enfermedades, educación sanitaria, cuidado de adultos mayores y promoción de hábitos saludables."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Medicina Humana",
+    "area": "Área I: Ciencias de la Salud",
+    "carreras": [
+      "Medicina Humana"
+    ],
+    "oficina": [
+      "medicina",
+      "médico",
+      "doctor",
+      "diagnóstico",
+      "despistaje",
+      "enfermedad",
+      "consulta médica",
+      "jornada médica",
+      "salud pública",
+      "campaña médica"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos médicos para una campaña",
+      "Queremos despistaje de enfermedades",
+      "Solicitamos una jornada médica comunitaria",
+      "Hay muchos casos de enfermedad y necesitamos orientación"
+    ],
+    "keywords": "Proyección Social de la Facultad de Medicina Humana",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Atiende campañas médicas, evaluación clínica básica, despistaje de enfermedades, salud pública, orientación médica comunitaria, jornadas médicas, prevención de enfermedades prevalentes, diagnóstico inicial y articulación para atención médica. Es más adecuada cuando el pedido requiere criterio médico o consulta clínica."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Arquitectura",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Arquitectura"
+    ],
+    "oficina": [
+      "arquitectura",
+      "diseño",
+      "vivienda",
+      "plaza",
+      "local comunal",
+      "espacio público",
+      "urbanismo",
+      "planos",
+      "equipamiento",
+      "accesibilidad"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos mejorar nuestra plaza comunal",
+      "Necesitamos diseño para un local comunal",
+      "Buscamos apoyo para ordenar espacios públicos",
+      "Necesitamos ideas para viviendas rurales"
+    ],
+    "keywords": "Proyección Social de la Facultad de Arquitectura",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en diseño urbano y rural, ordenamiento de espacios comunales, mejoramiento de plazas, locales comunales, equipamientos comunitarios, vivienda, diseño participativo, recuperación de espacios públicos, accesibilidad y planificación arquitectónica sostenible."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Civil",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Civil"
+    ],
+    "oficina": [
+      "civil",
+      "infraestructura",
+      "canal",
+      "canales",
+      "riego",
+      "caminos",
+      "puente",
+      "reservorio",
+      "saneamiento",
+      "drenaje",
+      "defensa ribereña",
+      "estructura",
+      "obra",
+      "local comunal"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos evaluar un puente comunal",
+      "Queremos mejorar canales de riego",
+      "Necesitamos apoyo para caminos rurales",
+      "Solicitamos revisión de nuestro local comunal"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Civil",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en infraestructura comunal y obras: caminos rurales, puentes, canales de riego, reservorios, saneamiento básico, drenaje, defensa ribereña, evaluación de estructuras, construcción de locales comunales, mantenimiento de obras y gestión de riesgos físicos."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería de Minas",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería de Minas"
+    ],
+    "oficina": [
+      "minería",
+      "mina",
+      "minas",
+      "seguridad minera",
+      "pasivo minero",
+      "relave",
+      "socavón",
+      "cantera",
+      "riesgo geológico",
+      "minería responsable"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Hay preocupación por una actividad minera cerca de la comunidad",
+      "Queremos orientación sobre seguridad minera",
+      "Necesitamos información sobre pasivos mineros",
+      "Solicitamos evaluación de riesgos por minería"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería de Minas",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en temas relacionados con actividad minera, seguridad minera, impacto de operaciones mineras, orientación técnica sobre minería responsable, riesgos geológicos vinculados a minería, pasivos mineros y relación entre comunidades y proyectos mineros."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería de Sistemas",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería de Sistemas"
+    ],
+    "oficina": [
+      "sistemas",
+      "computación",
+      "internet",
+      "digital",
+      "página web",
+      "software",
+      "datos",
+      "sistema de información",
+      "alfabetización digital",
+      "trámite digital",
+      "tecnología",
+      "automatización"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos capacitación en computación",
+      "Queremos un sistema para la municipalidad",
+      "Necesitamos ayuda con trámites digitales",
+      "Queremos aprender a usar internet y herramientas digitales"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería de Sistemas",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en alfabetización digital, uso de computadoras, herramientas digitales, sistemas de información, páginas web, formularios digitales, gestión de datos, automatización, soporte tecnológico para municipios o comunidades, orientación en trámites digitales y seguridad básica en internet."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Eléctrica y Electrónica",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Eléctrica y Electrónica"
+    ],
+    "oficina": [
+      "electricidad",
+      "eléctrica",
+      "electrónica",
+      "panel solar",
+      "energía solar",
+      "iluminación",
+      "instalación eléctrica",
+      "seguridad eléctrica",
+      "mantenimiento eléctrico",
+      "eficiencia energética"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos revisar instalaciones eléctricas comunales",
+      "Queremos orientación sobre paneles solares",
+      "Tenemos problemas con iluminación pública",
+      "Solicitamos capacitación en seguridad eléctrica"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Eléctrica y Electrónica",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en electricidad, instalaciones eléctricas básicas, seguridad eléctrica, iluminación pública, energías renovables, paneles solares, electrónica aplicada, mantenimiento eléctrico, eficiencia energética y orientación técnica para sistemas eléctricos comunitarios."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Mecánica",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Mecánica"
+    ],
+    "oficina": [
+      "mecánica",
+      "maquinaria",
+      "motor",
+      "bomba de agua",
+      "equipo",
+      "mantenimiento",
+      "herramientas",
+      "reparación",
+      "tecnología apropiada",
+      "taller mecánico"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos apoyo para una bomba de agua",
+      "Queremos mantenimiento de maquinaria comunal",
+      "Solicitamos capacitación en uso seguro de equipos",
+      "Necesitamos mejorar un equipo productivo"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Mecánica",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en mantenimiento de maquinaria, equipos productivos, bombas de agua, motores, herramientas mecánicas, diseño y reparación básica de equipos, tecnologías apropiadas para comunidades, seguridad en uso de maquinaria y eficiencia de procesos mecánicos."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Metalúrgica y de Materiales",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Metalúrgica y de Materiales"
+    ],
+    "oficina": [
+      "metalurgia",
+      "materiales",
+      "metal",
+      "soldadura",
+      "corrosión",
+      "reciclaje de metales",
+      "estructura metálica",
+      "resistencia de materiales"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos orientación sobre soldadura",
+      "Queremos evaluar materiales de una estructura",
+      "Solicitamos apoyo sobre corrosión en metales",
+      "Necesitamos capacitación en reciclaje de metales"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Metalúrgica y de Materiales",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en materiales, metales, soldadura, evaluación de materiales, corrosión, reciclaje de metales, procesos metalúrgicos básicos, resistencia de materiales y orientación técnica para trabajos con estructuras metálicas o materiales industriales."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Química",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Química"
+    ],
+    "oficina": [
+      "química",
+      "agua",
+      "calidad de agua",
+      "tratamiento de agua",
+      "saneamiento",
+      "residuos sólidos",
+      "contaminación",
+      "análisis de agua",
+      "potable",
+      "desinfectante",
+      "jabón"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos analizar el agua del manantial",
+      "Queremos capacitación en tratamiento de agua",
+      "Tenemos problemas con residuos sólidos",
+      "Solicitamos apoyo para producir jabones"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Química",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en calidad de agua, tratamiento de agua potable, análisis de agua, saneamiento, residuos sólidos, contaminación, procesos químicos, transformación de productos, jabones, desinfectantes, gestión ambiental básica y seguridad en uso de sustancias."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Química Industrial",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Química Industrial"
+    ],
+    "oficina": [
+      "química industrial",
+      "proceso industrial",
+      "producción",
+      "transformación",
+      "control de calidad",
+      "planta productiva",
+      "empaque",
+      "productividad",
+      "materia prima"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos mejorar un proceso de producción",
+      "Necesitamos apoyo para transformar productos locales",
+      "Solicitamos orientación para control de calidad",
+      "Queremos implementar una pequeña planta productiva"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Química Industrial",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en procesos industriales, mejora de producción, transformación de materias primas, control de calidad, pequeñas plantas productivas, elaboración de productos, empaques, inocuidad básica, productividad y procesos para asociaciones de productores."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Química Ambiental",
+    "area": "Área II: Arquitectura e Ingenierías",
+    "carreras": [
+      "Ingeniería Química Ambiental"
+    ],
+    "oficina": [
+      "ambiental",
+      "contaminación",
+      "residuos",
+      "agua contaminada",
+      "suelo",
+      "aire",
+      "monitoreo ambiental",
+      "impacto ambiental",
+      "reciclaje",
+      "educación ambiental",
+      "sostenibilidad"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Tenemos contaminación en el río",
+      "Queremos una campaña de reciclaje",
+      "Necesitamos orientación sobre residuos sólidos",
+      "Solicitamos apoyo para educación ambiental"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Química Ambiental",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en gestión ambiental, contaminación de agua, suelo y aire, residuos sólidos, educación ambiental, tratamiento ambiental, monitoreo ambiental, recuperación de espacios contaminados, impacto ambiental y prácticas sostenibles para comunidades."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Administración de Empresas",
+    "area": "Área III: Ciencias Administrativas, Contables y Económicas",
+    "carreras": [
+      "Administración de Empresas"
+    ],
+    "oficina": [
+      "administración",
+      "emprendimiento",
+      "negocio",
+      "plan de negocio",
+      "marketing",
+      "ventas",
+      "formalización",
+      "asociación",
+      "cooperativa",
+      "gestión",
+      "liderazgo"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos formalizar una asociación de productores",
+      "Necesitamos un plan de negocio",
+      "Solicitamos capacitación en ventas y marketing",
+      "Queremos mejorar la gestión de nuestra organización"
+    ],
+    "keywords": "Proyección Social de la Facultad de Administración de Empresas",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en gestión de organizaciones, emprendimiento, asociatividad, formalización, planes de negocio, marketing, ventas, mejora de atención, gestión municipal básica, liderazgo, organización de productores y fortalecimiento de asociaciones."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Contabilidad",
+    "area": "Área III: Ciencias Administrativas, Contables y Económicas",
+    "carreras": [
+      "Contabilidad"
+    ],
+    "oficina": [
+      "contabilidad",
+      "costos",
+      "presupuesto",
+      "tributos",
+      "impuestos",
+      "finanzas",
+      "ingresos",
+      "egresos",
+      "rendición de cuentas",
+      "libros contables"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos aprender contabilidad básica",
+      "Queremos ordenar los gastos de la asociación",
+      "Solicitamos capacitación en costos y presupuestos",
+      "Necesitamos orientación sobre impuestos"
+    ],
+    "keywords": "Proyección Social de la Facultad de Contabilidad",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en educación financiera, contabilidad básica, costos, presupuestos, tributación básica, libros contables, rendición de cuentas, finanzas para asociaciones, control de ingresos y egresos, y orientación para pequeños negocios."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Economía",
+    "area": "Área III: Ciencias Administrativas, Contables y Económicas",
+    "carreras": [
+      "Economía"
+    ],
+    "oficina": [
+      "economía",
+      "proyecto económico",
+      "desarrollo productivo",
+      "mercado",
+      "cadena productiva",
+      "presupuesto participativo",
+      "inversión",
+      "diagnóstico económico",
+      "economía familiar"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos evaluar un proyecto productivo",
+      "Necesitamos analizar el mercado para nuestros productos",
+      "Solicitamos apoyo en desarrollo económico local",
+      "Queremos priorizar inversiones de la comunidad"
+    ],
+    "keywords": "Proyección Social de la Facultad de Economía",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en diagnóstico económico local, desarrollo productivo, evaluación de proyectos, análisis de mercado, economía familiar, cadenas productivas, planificación económica, presupuesto participativo, desarrollo territorial y priorización de inversiones comunales."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Administración de Negocios - Tarma",
+    "area": "Área III: Ciencias Administrativas, Contables y Económicas",
+    "carreras": [
+      "Administración de Negocios - Tarma"
+    ],
+    "oficina": [
+      "negocios",
+      "tarma",
+      "emprendimiento",
+      "ventas",
+      "marketing",
+      "formalización",
+      "pequeña empresa",
+      "gestión de negocio"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Somos emprendedores de Tarma y necesitamos apoyo",
+      "Queremos mejorar nuestras ventas",
+      "Solicitamos capacitación en negocios",
+      "Necesitamos formalizar pequeños emprendimientos"
+    ],
+    "keywords": "Proyección Social de Administración de Negocios - Tarma",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en gestión de negocios, emprendimientos locales, formalización, ventas, marketing, atención al cliente, organización de asociaciones y fortalecimiento de pequeñas empresas, especialmente en el entorno de Tarma y zonas cercanas."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Administración Hotelera y Turismo - Tarma",
+    "area": "Área III: Ciencias Administrativas, Contables y Económicas",
+    "carreras": [
+      "Administración Hotelera y Turismo - Tarma"
+    ],
+    "oficina": [
+      "turismo",
+      "hotelera",
+      "visitantes",
+      "ruta turística",
+      "gastronomía",
+      "patrimonio",
+      "turismo comunitario",
+      "promoción turística",
+      "atención al turista",
+      "tarma"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos impulsar el turismo en nuestra comunidad",
+      "Necesitamos diseñar una ruta turística",
+      "Solicitamos capacitación en atención al visitante",
+      "Queremos mejorar servicios turísticos"
+    ],
+    "keywords": "Proyección Social de Administración Hotelera y Turismo - Tarma",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en turismo comunitario, promoción turística, gestión hotelera, atención al visitante, rutas turísticas, gastronomía turística, emprendimientos turísticos, patrimonio local, señalización turística y mejora de servicios para visitantes."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Antropología",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Antropología"
+    ],
+    "oficina": [
+      "antropología",
+      "cultura",
+      "identidad",
+      "patrimonio",
+      "costumbres",
+      "interculturalidad",
+      "saberes ancestrales",
+      "organización comunal",
+      "memoria colectiva"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos recuperar nuestras costumbres comunales",
+      "Necesitamos apoyo para valorar nuestra cultura",
+      "Solicitamos diagnóstico sociocultural",
+      "Queremos trabajar identidad y patrimonio local"
+    ],
+    "keywords": "Proyección Social de la Facultad de Antropología",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en cultura, identidad, patrimonio, costumbres, organización comunal, memoria colectiva, estudios sociales, conflictos culturales, interculturalidad, saberes ancestrales, participación comunitaria y diagnóstico sociocultural."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ciencias de la Comunicación",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Ciencias de la Comunicación"
+    ],
+    "oficina": [
+      "comunicación",
+      "radio",
+      "difusión",
+      "campaña informativa",
+      "redes sociales",
+      "video",
+      "fotografía",
+      "periodismo",
+      "sensibilización",
+      "mensaje"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos difundir una campaña comunal",
+      "Queremos aprender a usar redes sociales",
+      "Solicitamos apoyo para radio comunitaria",
+      "Necesitamos videos para promocionar nuestra comunidad"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ciencias de la Comunicación",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en comunicación comunitaria, radio, difusión, campañas informativas, redes sociales, diseño de mensajes, fotografía, video, periodismo comunitario, comunicación para el desarrollo y estrategias de sensibilización."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Derecho y Ciencias Políticas",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Derecho y Ciencias Políticas"
+    ],
+    "oficina": [
+      "derecho",
+      "legal",
+      "asesoría jurídica",
+      "personería jurídica",
+      "saneamiento legal",
+      "tierras",
+      "conflicto",
+      "estatuto",
+      "trámite legal",
+      "derechos",
+      "violencia",
+      "familia"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos asesoría legal para tierras comunales",
+      "Queremos formalizar la personería jurídica",
+      "Solicitamos orientación sobre derechos ciudadanos",
+      "Tenemos un conflicto comunal y necesitamos apoyo legal"
+    ],
+    "keywords": "Proyección Social de la Facultad de Derecho y Ciencias Políticas",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en orientación legal, derechos ciudadanos, personería jurídica, saneamiento físico legal, conflictos comunales, tierras, estatutos, trámites legales, violencia, familia, participación ciudadana, gobernanza y fortalecimiento institucional."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Sociología",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Sociología"
+    ],
+    "oficina": [
+      "sociología",
+      "diagnóstico social",
+      "organización comunitaria",
+      "participación",
+      "conflicto social",
+      "juventud",
+      "familia",
+      "convivencia",
+      "problema social",
+      "organización social"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos diagnosticar problemas sociales de la comunidad",
+      "Necesitamos mejorar la participación vecinal",
+      "Solicitamos apoyo con jóvenes y familias",
+      "Hay conflictos sociales y necesitamos orientación"
+    ],
+    "keywords": "Proyección Social de la Facultad de Sociología",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en diagnóstico social, organización comunitaria, participación ciudadana, convivencia, prevención de conflictos sociales, investigación social, juventudes, familias, problemáticas sociales, fortalecimiento de organizaciones y proyectos comunitarios."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Trabajo Social",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Trabajo Social"
+    ],
+    "oficina": [
+      "trabajo social",
+      "familias vulnerables",
+      "adulto mayor",
+      "niñez",
+      "mujeres",
+      "programas sociales",
+      "riesgo social",
+      "bienestar social",
+      "inclusión",
+      "acompañamiento"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos apoyo para familias vulnerables",
+      "Queremos orientación para adultos mayores",
+      "Solicitamos acompañamiento social para mujeres y niños",
+      "Necesitamos articular programas sociales"
+    ],
+    "keywords": "Proyección Social de la Facultad de Trabajo Social",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en atención social, familias vulnerables, adultos mayores, niñez, mujeres, programas sociales, casos de riesgo social, articulación con instituciones, acompañamiento comunitario, organización vecinal, inclusión y bienestar social."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Inicial",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Inicial"
+    ],
+    "oficina": [
+      "educación inicial",
+      "niños pequeños",
+      "primera infancia",
+      "estimulación temprana",
+      "juegos educativos",
+      "material didáctico",
+      "padres",
+      "desarrollo infantil"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos talleres para niños pequeños",
+      "Queremos orientación para padres de inicial",
+      "Solicitamos estimulación temprana",
+      "Necesitamos materiales educativos para inicial"
+    ],
+    "keywords": "Proyección Social de Educación Inicial",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en educación de primera infancia, estimulación temprana, juegos educativos, desarrollo infantil, orientación a padres, estrategias para niños pequeños, materiales didácticos, hábitos de aprendizaje y acompañamiento a docentes de inicial."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Primaria",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Primaria"
+    ],
+    "oficina": [
+      "educación primaria",
+      "reforzamiento escolar",
+      "comprensión lectora",
+      "matemáticas básicas",
+      "estudiantes",
+      "docentes",
+      "material didáctico",
+      "padres"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos reforzamiento para niños de primaria",
+      "Queremos talleres de lectura",
+      "Solicitamos apoyo en matemática básica",
+      "Necesitamos capacitación para padres de familia"
+    ],
+    "keywords": "Proyección Social de Educación Primaria",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en reforzamiento escolar, comprensión lectora, matemáticas básicas, estrategias de aprendizaje, acompañamiento a estudiantes de primaria, talleres para padres, materiales didácticos y apoyo pedagógico para docentes."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Filosofía, Ciencias Sociales y Relaciones Humanas",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Filosofía, Ciencias Sociales y Relaciones Humanas"
+    ],
+    "oficina": [
+      "filosofía",
+      "ciencias sociales",
+      "relaciones humanas",
+      "convivencia",
+      "ciudadanía",
+      "valores",
+      "ética",
+      "historia",
+      "pensamiento crítico",
+      "violencia escolar"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos talleres de convivencia escolar",
+      "Queremos charlas sobre ciudadanía y valores",
+      "Solicitamos apoyo en relaciones humanas",
+      "Necesitamos fortalecer la convivencia en jóvenes"
+    ],
+    "keywords": "Proyección Social de Educación Filosofía, Ciencias Sociales y Relaciones Humanas",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en formación ciudadana, ética, convivencia, relaciones humanas, ciudadanía, valores, historia, ciencias sociales, pensamiento crítico, prevención de violencia escolar y fortalecimiento de comunidad educativa."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Lengua, Literatura y Comunicación",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Lengua, Literatura y Comunicación"
+    ],
+    "oficina": [
+      "lengua",
+      "literatura",
+      "comunicación",
+      "lectura",
+      "escritura",
+      "comprensión lectora",
+      "redacción",
+      "oratoria",
+      "producción de textos",
+      "club de lectura"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos reforzamiento en lectura y escritura",
+      "Queremos talleres de oratoria para jóvenes",
+      "Solicitamos apoyo en comprensión lectora",
+      "Necesitamos mejorar la redacción de estudiantes"
+    ],
+    "keywords": "Proyección Social de Educación Lengua, Literatura y Comunicación",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en lectura, escritura, comprensión lectora, producción de textos, comunicación oral, oratoria, literatura, redacción, habilidades comunicativas, clubes de lectura y acompañamiento pedagógico en comunicación."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Ciencias Naturales y Ambientales",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Ciencias Naturales y Ambientales"
+    ],
+    "oficina": [
+      "ciencias naturales",
+      "educación ambiental",
+      "reciclaje",
+      "biodiversidad",
+      "cambio climático",
+      "huerto escolar",
+      "ambiente",
+      "experimentos",
+      "cultura científica"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos talleres de reciclaje en el colegio",
+      "Necesitamos educación ambiental para niños",
+      "Solicitamos apoyo para huertos escolares",
+      "Queremos actividades de ciencias naturales"
+    ],
+    "keywords": "Proyección Social de Educación Ciencias Naturales y Ambientales",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en educación ambiental, ciencias naturales, experimentos escolares, cuidado del ambiente, reciclaje, biodiversidad, cambio climático, huertos escolares, cultura científica y sensibilización ambiental en colegios y comunidades."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Ciencias Matemáticas e Informática",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Ciencias Matemáticas e Informática"
+    ],
+    "oficina": [
+      "matemáticas",
+      "informática",
+      "reforzamiento matemático",
+      "programación básica",
+      "computadora",
+      "hojas de cálculo",
+      "pensamiento lógico",
+      "educación informática"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos reforzamiento de matemáticas",
+      "Queremos talleres de computación para estudiantes",
+      "Solicitamos apoyo en informática educativa",
+      "Necesitamos enseñar hojas de cálculo"
+    ],
+    "keywords": "Proyección Social de Educación Ciencias Matemáticas e Informática",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en reforzamiento de matemáticas, informática educativa, pensamiento lógico, uso de computadoras en educación, programación básica, hojas de cálculo, resolución de problemas y apoyo pedagógico en matemática e informática."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Educación Física y Psicomotricidad",
+    "area": "Área IV: Educación y Ciencias Sociales",
+    "carreras": [
+      "Educación Física y Psicomotricidad"
+    ],
+    "oficina": [
+      "educación física",
+      "deporte",
+      "psicomotricidad",
+      "actividad física",
+      "recreación",
+      "juegos",
+      "hábitos saludables",
+      "sedentarismo",
+      "taller deportivo"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos talleres deportivos para jóvenes",
+      "Necesitamos actividades físicas para niños",
+      "Solicitamos apoyo en psicomotricidad",
+      "Queremos promover hábitos saludables con deporte"
+    ],
+    "keywords": "Proyección Social de Educación Física y Psicomotricidad",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en actividad física, deporte, psicomotricidad, recreación, hábitos saludables, talleres deportivos, juegos para niños, prevención del sedentarismo, educación corporal y promoción de salud mediante actividad física."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Agronomía",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Agronomía"
+    ],
+    "oficina": [
+      "agronomía",
+      "cultivo",
+      "cultivos",
+      "papa",
+      "maíz",
+      "quinua",
+      "hortalizas",
+      "suelos",
+      "fertilización",
+      "plagas",
+      "riego agrícola",
+      "poscosecha",
+      "chacra",
+      "producción agrícola"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos mejorar la producción de papa",
+      "Queremos asistencia técnica para riego agrícola",
+      "Tenemos plagas en los cultivos",
+      "Solicitamos capacitación en manejo de suelos"
+    ],
+    "keywords": "Proyección Social de la Facultad de Agronomía",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en capacitación y asistencia técnica agrícola: cultivos andinos, papa, maíz, quinua, hortalizas, manejo de suelos, fertilización, control de plagas y enfermedades de cultivos, riego agrícola, buenas prácticas agrícolas, poscosecha, producción sostenible y mejora de rendimiento."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Forestal y Ambiental",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Ingeniería Forestal y Ambiental"
+    ],
+    "oficina": [
+      "forestal",
+      "bosque",
+      "reforestación",
+      "vivero",
+      "biodiversidad",
+      "recursos naturales",
+      "erosión",
+      "áreas degradadas",
+      "conservación",
+      "gestión ambiental"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos reforestar la comunidad",
+      "Necesitamos un vivero forestal",
+      "Solicitamos apoyo para conservar bosques",
+      "Tenemos problemas de erosión de suelos"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería Forestal y Ambiental",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en manejo forestal, reforestación, conservación de bosques, recursos naturales, gestión ambiental rural, biodiversidad, viveros forestales, erosión de suelos, recuperación de áreas degradadas y educación ambiental comunitaria."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería en Industrias Alimentarias",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Ingeniería en Industrias Alimentarias"
+    ],
+    "oficina": [
+      "industrias alimentarias",
+      "alimentos",
+      "procesamiento",
+      "transformación de alimentos",
+      "inocuidad",
+      "lácteos",
+      "mermelada",
+      "deshidratado",
+      "control de calidad",
+      "envases",
+      "valor agregado"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos transformar nuestros productos agrícolas",
+      "Necesitamos capacitación en inocuidad alimentaria",
+      "Solicitamos apoyo para hacer mermeladas o deshidratados",
+      "Queremos mejorar el control de calidad de alimentos"
+    ],
+    "keywords": "Proyección Social de la Facultad de Ingeniería en Industrias Alimentarias",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en transformación de alimentos, inocuidad, conservación, procesamiento de productos agrícolas y pecuarios, lácteos, mermeladas, deshidratados, control de calidad, envases, buenas prácticas de manufactura y valor agregado para productores."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Zootecnia",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Zootecnia"
+    ],
+    "oficina": [
+      "zootecnia",
+      "animales",
+      "cuyes",
+      "ganado",
+      "vacuno",
+      "ovino",
+      "alpacas",
+      "aves",
+      "sanidad animal",
+      "nutrición animal",
+      "leche",
+      "pastos",
+      "pecuario"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos mejorar la crianza de cuyes",
+      "Queremos capacitación en sanidad animal",
+      "Solicitamos apoyo para producción de leche",
+      "Tenemos problemas con alimentación del ganado"
+    ],
+    "keywords": "Proyección Social de la Facultad de Zootecnia",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en crianza y manejo de animales: cuyes, ganado vacuno, ovino, alpacas, aves de corral, sanidad animal, alimentación y nutrición animal, mejoramiento genético, producción de leche y derivados, manejo de pastos y producción pecuaria sostenible."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Agroindustrial - Tarma",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Ing. Agroindustrial - Tarma"
+    ],
+    "oficina": [
+      "agroindustrial",
+      "tarma",
+      "valor agregado",
+      "procesamiento",
+      "frutas",
+      "hortalizas",
+      "granos",
+      "empaque",
+      "inocuidad",
+      "control de calidad"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Somos productores de Tarma y queremos transformar productos",
+      "Necesitamos mejorar empaques agroindustriales",
+      "Solicitamos capacitación en valor agregado",
+      "Queremos procesar frutas y hortalizas"
+    ],
+    "keywords": "Proyección Social de Ingeniería Agroindustrial - Tarma",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en transformación agroindustrial, valor agregado de productos locales, procesamiento de frutas, hortalizas y granos, empaques, inocuidad, control de calidad, pequeños emprendimientos agroindustriales y cadenas productivas en Tarma y zonas cercanas."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Agronomía Tropical - Satipo",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Ing. Agronomía Tropical - Satipo"
+    ],
+    "oficina": [
+      "agronomía tropical",
+      "satipo",
+      "café",
+      "cacao",
+      "frutales",
+      "selva central",
+      "cultivos tropicales",
+      "sistemas agroforestales",
+      "plagas tropicales",
+      "poscosecha"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Productores de Satipo necesitan apoyo para café",
+      "Queremos mejorar cultivos de cacao",
+      "Solicitamos asistencia en frutales tropicales",
+      "Necesitamos control de plagas en cultivos tropicales"
+    ],
+    "keywords": "Proyección Social de Ingeniería Agronomía Tropical - Satipo",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en cultivos tropicales, café, cacao, frutales, manejo de suelos tropicales, plagas tropicales, producción agrícola en selva central, sistemas agroforestales, riego agrícola, poscosecha y asistencia técnica para productores de Satipo y zonas amazónicas."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Ingeniería Forestal Tropical - Satipo",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Ing. Forestal Tropical - Satipo"
+    ],
+    "oficina": [
+      "forestal tropical",
+      "satipo",
+      "bosque tropical",
+      "reforestación tropical",
+      "biodiversidad amazónica",
+      "vivero forestal",
+      "selva central",
+      "manejo forestal"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos reforestar una zona de Satipo",
+      "Queremos conservar bosques tropicales",
+      "Solicitamos viveros forestales en selva central",
+      "Tenemos áreas degradadas que recuperar"
+    ],
+    "keywords": "Proyección Social de Ingeniería Forestal Tropical - Satipo",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en bosques tropicales, manejo forestal comunitario, reforestación tropical, conservación de biodiversidad amazónica, viveros forestales, recuperación de áreas degradadas, recursos naturales y educación ambiental en Satipo y selva central."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Industrias Alimentarias Tropical - Satipo",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Ing. Industrias Alimentarias Tropical - Satipo"
+    ],
+    "oficina": [
+      "alimentos tropicales",
+      "satipo",
+      "café",
+      "cacao",
+      "frutas amazónicas",
+      "fermentación",
+      "secado",
+      "inocuidad",
+      "valor agregado",
+      "procesamiento tropical"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Queremos procesar cacao en Satipo",
+      "Necesitamos mejorar el secado de café",
+      "Solicitamos capacitación en alimentos tropicales",
+      "Queremos dar valor agregado a frutas amazónicas"
+    ],
+    "keywords": "Proyección Social de Industrias Alimentarias Tropical - Satipo",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en procesamiento de alimentos tropicales, café, cacao, frutas amazónicas, conservación, inocuidad, transformación agroalimentaria, control de calidad, secado, fermentación, empaques y valor agregado para productores de Satipo y selva central."
+  },
+  {
+    "tipo": "facultad_carrera",
+    "facultad": "Facultad de Zootecnia Tropical - Satipo",
+    "area": "Área V: Ciencias Agrarias",
+    "carreras": [
+      "Zootecnia Tropical - Satipo"
+    ],
+    "oficina": [
+      "zootecnia tropical",
+      "satipo",
+      "ganadería tropical",
+      "pastos tropicales",
+      "sanidad animal",
+      "crianza animal",
+      "aves",
+      "peces",
+      "selva central",
+      "alimentación animal"
+    ],
+    "ruta": "derivar_facultad",
+    "accion_sugerida": 30,
+    "prioridad": [
+      "Necesitamos mejorar crianza de animales en Satipo",
+      "Queremos capacitación en pastos tropicales",
+      "Solicitamos apoyo en sanidad animal tropical",
+      "Tenemos problemas de alimentación del ganado en selva central"
+    ],
+    "keywords": "Proyección Social de Zootecnia Tropical - Satipo",
+    "ejemplos": "Proyección Social de Facultad",
+    "descripcion": "Apoya en producción pecuaria tropical, crianza de animales en selva central, sanidad animal, alimentación animal, manejo de pastos tropicales, ganadería tropical, aves, peces o crianza menor, y mejora productiva para productores de Satipo."
+  }
+]
