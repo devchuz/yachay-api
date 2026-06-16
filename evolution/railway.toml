@@ -1,0 +1,15 @@
+Railway · TOML
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+ 
+[deploy]
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+ 
+[[volumes]]
+mountPath = "/evolution/instances"
+ 
+[[volumes]]
+mountPath = "/evolution/store"
+ 
